@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="포트폴리오 입니다" />
+    <meta name="ketwords" content="웹퍼블리셔, 웹디자이너, 포트폴리오" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/xeicon@2.3.3/xeicon.min.css"
+    />
+    <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+    <link rel="stylesheet" href="./css/import.css" />
+    <link rel="shortcut icon" href="favicon.ico" />
+    <link rel="stylesheet" href="./css/slick.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <title>정유나의 포트폴리오입니다.</title>
+  </head>
+  <body>
+    <!-- Header -->
+    <header>
+      <nav class="nav_gnb">
+        <section>
+          <h1>정유나</h1>
+          <p>Designer / Publisher</p>
+          <div class="dot">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+        </section>
+        <ul class="nav_list">
+          <li><a id="aboutMe" href="#">About me</a></li>
+          <li id="btn2">
+            <a class="" href="./html/publishing_main.html">Project</a>
+            <ul class="portfolio">
+              <li><a href="./html/publishing_korfin.html">1. Korfin</a></li>
+              <li><a href="./html/publishing_neoforet.html">2. Neoforet</a></li>
+              <li><a href="./html/publishing_timon.html">3. Timon_236</a></li>
+              <li><a href="./html/publishing_mollys.html">4. Mollys</a></li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <!-- // Header_end -->
+
+    <!-- Main_index -->
+    <section class="wrapper">
+      <div class="img">
+        <article class="container">
+          <div class="box_01">
+            <h2>
+              <p>
+                안녕하세요 :)<br/>
+                <span>퍼블리셔 정유나</span>의<br/>
+                포트폴리오 입니다.
+              </p>
+            </h2>
+          </div>
+          <div class="box_02">
+            <span>라인</span>
+            <h3>
+              <p>
+                <span>‘바람직하고 효율적인 코드로’</span> 더 나은 결과를 만들기 위해<br>
+                노력하는 퍼블리셔가 되고 싶습니다. 방문해 주셔서 감사합니다.
+              </p>
+            </h3>
+          </div>
+        </article>
+        <div class="slide_ctn">
+          <div class="item">
+            <div class="bg bg01"></div>
+          </div>
+          <div class="item">
+            <div class="bg bg02"></div>
+          </div>
+          <div class="item">
+            <div class="bg bg03"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- //Main_index__end -->
+
+    <!-- Modal -->
+    <div class="modal_container">
+      <div class="modal">
+        <button id="close"><i class="xi-close"></i></button>
+        <div class="modal_text">
+          <div class="profile">
+            <h2 class="name">정유나<span>1996. 08. 03</span></h2>
+            <img class="photo" src="./images/profile_photo.jpg" alt="">
+            <div class="contact">
+              <p>Phone: <span>010. 5172. 3290</span></p>
+              <p>E-mail: <a href="https://mail.google.com/mail/u/0/?view=cm&fs=1&to=jeongun96@gmail.com&tf=1"target="_blank"><span class="email">jeongun96@gmail.com</span></a></p>
+            </div>
+          </div>
+          <div class="info">
+            <div class="edu">
+              <h3>학력사항</h3>
+              <ul>
+                <li>2020. 08 <span>시각디자인학과 졸업</span></li>
+                <li>2020. 06 <span>Web front-end 과정 수료</span></li>
+              </ul>
+            </div>
+            <div class="certi">
+              <h3>자격증</h3>
+              <ul>
+                <li>2016.02 <span>GTQ 포토샵 1급</span></li>
+                <li>2018.12 <span>시각디자인 산업기사</span></li>
+              </ul>
+            </div>
+            <div class="awords">
+              <h3>수상경력</h3>
+              <ul>
+                <li>
+                  2017
+                  <span class="small"
+                    >국제적정기술 디자인대전 시각디자인 부분 입선</span
+                  >
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- // Modal_end -->
+    <script src="./js/app.js"></script>
+    <script>
+      AOS.init();
+    </script>
+  </body>
+</html>

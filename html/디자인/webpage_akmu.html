@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/xeicon@2.3.3/xeicon.min.css"
+    />
+    <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+    <link rel="stylesheet" href="../css/slick.css" />
+    <link rel="stylesheet" href="../css/import.css" />
+    <title>webpage_AKMU</title>
+  </head>
+  <body>
+    <!-- Header -->
+    <header>
+      <nav class="nav_gnb">
+        <section>
+          <a href="../index.html"><h1>정유나</h1></a>
+          <p>Designer / Publisher</p>
+          <div class="dot">점3개이미지</div>
+        </section>
+        <ul class="nav_list">
+          <li><a id="aboutMe" href="#">About me</a></li>
+          <li id="btn2">
+            <a href="#">Portfolio</a>
+            <ul class="portfolio">
+              <li><a href="../html/publishing_main.html">Web</a></li>
+              <li><a href="../html/package_deeasy.html">Package</a></li>
+              <li><a href="../html/personal_uniform.html">Personal</a></li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <!-- // Header_end -->
+
+    <!-- Modal -->
+    <div class="modal_container">
+      <div class="modal">
+        <button id="close"><i class="xi-close"></i></button>
+        <div class="modal_text">
+          <div class="profile">
+            <h2 class="name">정유나<span>1996. 08. 03</span></h2>
+            <img class="photo" src="../images/profile_photo.jpg" alt="" />
+            <div class="contact">
+              <p>Phone: <span>010. 5172. 3290</span></p>
+              <p>E-mail: <a href="https://mail.google.com/mail/u/0/?view=cm&fs=1&to=jeongun96@gmail.com&tf=1"target="_blank"><span class="email">jeongun96@gmail.com</span></a></p>
+            </div>
+          </div>
+          <div class="info">
+            <div class="edu">
+              <h3>학력사항</h3>
+              <ul>
+                <li>2020. 08 <span>시각디자인학과 졸업</span></li>
+                <li>2020. 06 <span>Web front-end 과정 수료</span></li>
+              </ul>
+            </div>
+            <div class="certi">
+              <h3>자격증</h3>
+              <ul>
+                <li>2016.02 <span>GTQ 포토샵 1급</span></li>
+                <li>2018.12 <span>시각디자인 산업기사</span></li>
+              </ul>
+            </div>
+            <div class="awords">
+              <h3>수상경력</h3>
+              <ul>
+                <li>
+                  2017
+                  <span class="small"
+                    >국제적정기술 디자인대전 시각디자인 부분 입선</span
+                  >
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- // Modal_end -->
+
+    <!-- Sub_nav -->
+    <div class="content_container">
+      <nav class="sub_nav">
+        <ul class="fixed">
+          <li>
+            <ul>
+              <h2>Web</h2>
+              <a href="../html/publishing_main.html"><li>Publishing</li></a>
+              <a href="../html/uxui_main.html"><li>UX /UI</li></a>
+              <a href="../html/webpage_main.html"><li>Web page</li></a>
+              <a href="banner_poster.html"><li>Banner & Poster</li></a>
+              <div class="line">라인</div>
+            </ul>
+            <ul>
+              <h3>Package</h3>
+              <a href="../html/package_deeasy.html"><li>De.easy</li></a>
+              <a href="../html/package_kaka.html"><li>KaKaNuts</li></a>
+              <a href="../html/package_sosure.html"><li>SOSure</li></a>
+              <a href="../html/package_denti.html"><li>Denti promised</li></a>
+              <div class="line">라인</div>
+            </ul>
+            <ul>
+              <h3>Personal</h3>
+              <a href="../html/personal_uniform.html"><li>Uniform</li></a>
+              <!-- <a href="../html/personal_logo.html"><li>Logo</li></a> -->
+            </ul>
+          </li>
+        </ul>
+        <div class="moblie_btn">
+          <i class="xi-angle-right"></i>
+        </div>
+      </nav>
+      <!-- Sub_nav__end -->
+
+      <!-- Webpage_akmu -->
+      <div class="content">
+        <button class="back">
+          <a href="../html/webpage_main.html">
+            <img src="../images/main/back_btn.png" alt="" />
+          </a>
+        </button>
+        <h3 class="title">AKMU(악동뮤지션) 소개 페이지</h3>
+        <p>
+          가수 AKMU(악동뮤지션)의 [항해]
+          <span>앨범 커버 이미지들을 활용</span>하여 소개 페이지를 만들었습니다.
+          <br />툴은 <span>Photoshop</span>과 <span>Figma</span>를
+          사용하였습니다.
+        </p>
+        <div class="look akmu">
+          <div class="border_imges">
+            <div class="slides">
+              <img src="../images/web/web_page/akmu/akmu_01.jpg" alt="" />
+              <img src="../images/web/web_page/akmu/akmu_02.jpg" alt="" />
+              <img src="../images/web/web_page/akmu/akmu_03.jpg" alt="" />
+              <img src="../images/web/web_page/akmu/akmu_04.jpg" alt="" />
+            </div>
+            <div class="buttons"></div>
+          </div>
+          <a href="#" class="top"><i class="xi-caret-up-circle"></i></a>
+        </div>
+      </div>
+    </div>
+    <!-- //Webpage_akmu__end -->
+    <script src="../js/slick.js"></script>
+    <script src="../js/app.js"></script>
+    <script>
+      $(function () {
+        $(".slides").slick({
+          dots: true,
+          infinite: true,
+          slidesToShow: 1,
+          adaptiveHeight: true,
+          arrows: false,
+          appendDots: $(".buttons"),
+          autoplay: true,
+          autoplaySpeed: 4000,
+          responsive: [
+          {
+            breakpoint: 1024,
+            settings: {
+              dots: false
+            }
+          }
+        ]
+        });
+      });
+    </script>
+  </body>
+</html>
