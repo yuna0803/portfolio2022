@@ -473,6 +473,9 @@ background: var(--green);
   padding-bottom: 40px;
   color: var(--green);
 }
+
+.sub_nav ul li.on{color: var(--pink);}
+
 .sub_nav ul li > a{
   display: inline-block;
   vertical-align: top;
